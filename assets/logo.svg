@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background gear -->
+  <g stroke="#000" stroke-width="8" fill="#9CA3AF">
+    <!-- Outer gear teeth -->
+    <path d="M256 40L280 60L300 40L320 60L340 50L360 70L380 60L400 80L420 70L440 90L460 80L480 100L470 120L490 140L480 160L500 180L490 200L510 220L500 240L520 260L510 280L530 300L520 320L540 340L530 360L550 380L540 400L560 420L550 440L570 460L560 480L540 490L520 470L500 480L480 460L460 470L440 450L420 460L400 440L380 450L360 430L340 440L320 420L300 430L280 410L260 420L240 400L220 410L200 390L180 400L160 380L140 390L120 370L100 380L80 360L60 370L40 350L50 330L30 310L40 290L20 270L30 250L10 230L20 210L0 190L10 170L-10 150L0 130L-20 110L-10 90L-30 70L-20 50L-40 30L-30 10L-20 -10L0 10L20 -10L40 10L60 -10L80 10L100 -10L120 10L140 -10L160 10L180 -10L200 10L220 -10L240 10L256 40Z"/>
+    
+    <!-- Main gear body -->
+    <circle cx="256" cy="256" r="160" fill="#9CA3AF"/>
+  </g>
+  
+  <!-- Inner gear details -->
+  <g stroke="#000" stroke-width="4" fill="#B3B8C4">
+    <!-- Inner gear teeth -->
+    <circle cx="256" cy="256" r="140" fill="#B3B8C4"/>
+  </g>
+  
+  <!-- Central circle -->
+  <circle cx="256" cy="256" r="100" fill="#E5E7EB" stroke="#000" stroke-width="6"/>
+  
+  <!-- Shield -->
+  <g transform="translate(256,256)">
+    <!-- Shield outline -->
+    <path d="M-40,-50 L40,-50 L40,20 L0,60 L-40,20 Z" fill="#3B82F6" stroke="#1E40AF" stroke-width="3"/>
+    
+    <!-- Shield highlight -->
+    <path d="M-35,-45 L35,-45 L35,15 L0,50 L-35,15 Z" fill="#60A5FA"/>
+    
+    <!-- Shield center division -->
+    <line x1="0" y1="-45" x2="0" y2="50" stroke="#1E40AF" stroke-width="2"/>
+    <line x1="-35" y1="-10" x2="35" y2="-10" stroke="#1E40AF" stroke-width="2"/>
+    
+    <!-- Shield sections -->
+    <path d="M-35,-45 L0,-45 L0,-10 L-35,-10 Z" fill="#3B82F6"/>
+    <path d="M0,-45 L35,-45 L35,-10 L0,-10 Z" fill="#60A5FA"/>
+    <path d="M-35,-10 L0,-10 L0,50 L-35,15 Z" fill="#1E40AF"/>
+    <path d="M0,-10 L35,-10 L35,15 L0,50 Z" fill="#3B82F6"/>
+  </g>
+  
+  <!-- Connecting elements -->
+  <g fill="#60A5FA" stroke="#3B82F6" stroke-width="2">
+    <!-- Top connector -->
+    <rect x="246" y="60" width="20" height="30" rx="4"/>
+    <!-- Bottom connector -->
+    <rect x="246" y="422" width="20" height="30" rx="4"/>
+    <!-- Left connector -->
+    <rect x="60" y="246" width="30" height="20" rx="4"/>
+    <!-- Right connector -->
+    <rect x="422" y="246" width="30" height="20" rx="4"/>
+  </g>
+  
+  <!-- Decorative dots -->
+  <g fill="#60A5FA">
+    <circle cx="180" cy="120" r="6"/>
+    <circle cx="332" cy="120" r="6"/>
+    <circle cx="390" cy="180" r="6"/>
+    <circle cx="390" cy="332" r="6"/>
+    <circle cx="332" cy="390" r="6"/>
+    <circle cx="180" cy="390" r="6"/>
+    <circle cx="120" cy="332" r="6"/>
+    <circle cx="120" cy="180" r="6"/>
+  </g>
+</svg>
